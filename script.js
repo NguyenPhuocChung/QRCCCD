@@ -38,7 +38,7 @@ function formatDate(dateString) {
 // Tạo một instance của trình quét. 'reader' là ID của phần tử HTML.
 let html5QrcodeScanner = new Html5QrcodeScanner("reader", {
   fps: 15,
-  qrbox: 150,
+  qrbox: 100,
 });
 
 // Bắt đầu quét.
